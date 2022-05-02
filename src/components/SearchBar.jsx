@@ -17,7 +17,7 @@ const SearchBar = ({onTermSubmit}) => {
 
     return (
         <div className="ui secondary menu">
-            <h1 className='item ui header'> <i class="youtube icon purple"></i> MeTube or YouTube or WhateverTube </h1>
+            <h1 className='item ui header'> <i class="youtube icon purple"></i> MeTube or YouTube or WhatTube </h1>
             <div className='right menu'>
             <div className="item">
                 <form className='ui form' onSubmit={onFormSubmit}>
